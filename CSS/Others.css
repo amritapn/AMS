@@ -1,0 +1,216 @@
+.container {
+	padding: 30px;
+	font-family: cursive;
+	background-color: #f1f1f1;
+}
+
+.addr {
+	border: solid;
+	padding: 10px;
+	border-color: white;
+}
+
+span.psw {
+	padding-top: 1px;
+}
+
+body {
+	background-size: cover;
+}
+
+.modal {
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	padding-top: 5px;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 3% auto 15% auto;
+	/* 3% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+input[type=text], input[type=email], textarea, input[type=date], select
+	{
+	width: 48%;
+	padding: 8px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input
+[
+type
+=
+password
+]
+,
+{
+width
+:
+ 
+98%;
+padding
+:
+ 
+8
+px
+ 
+10
+px
+;
+
+    
+margin
+:
+ 
+8
+px
+ 
+0;
+display
+:
+ 
+inline-block
+;
+
+    
+border
+:
+ 
+1
+px
+ 
+solid
+ 
+#ccc
+;
+
+    
+box-sizing
+:
+ 
+border-box
+;
+
+
+}
+#addrtxt, select {
+	width: 40%;
+	padding: 8px 10px;
+	margin: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#pin1 {
+	width: 250px;
+}
+
+textarea {
+	width: 493px;
+}
+
+input[type=email], #cnm {
+	width: 493px;
+}
+
+.txt {
+	padding-left: 2cm;
+}
+
+#mbcode {
+	width: 10%;
+	padding: 8px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.heading {
+	padding: 2px;
+	font-family: cursive;
+	background-color: cyan;
+}
+
+button, input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+
+input[type=button] {
+	background-color: #FF6347;
+	color: white;
+	padding: 14px 20px;
+	margin: 16px 0;
+	border: none;
+	cursor: pointer;
+	width: 49%;
+}
+
+#popup-container {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+	position: fixed;
+	font-family: sans-serif;
+	background-color: rgba(0, 0, 0, 0.4);
+	overflow: auto
+}
+
+#popup {
+	width: 40%;
+	height: 100%;
+	left: 20vw;
+	top: 10vh;
+	padding: 30px;
+	display: none;
+	position: fixed;
+	font-family: sans-serif;
+	background-color: #2E86C1;
+	overflow: auto -moz-box-shadow: 5px 5px 5px black;
+	-webkit-box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
+}
+
+f1 {
+	max-width: 300px;
+	min-width: 250px;
+	padding: 10px 50px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	font-family: raleway;
+	background-color: #fff
+}
+
+#submit {
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	display: block;
+	background-color: #FFBC00;
+	color: #fff;
+	border: 1px solid #FFCB00;
+	padding: 10px 0;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px
+}

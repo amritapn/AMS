@@ -1,0 +1,86 @@
+body {
+	background: grey;
+	font-family: 'Helvetica Neue', Arial, Sans-Serif;
+	padding: 10px 100px 100px 100px;
+}
+
+h1 {
+	font-family: Times New Roman;
+	font-weight: bolder;
+	text-align: center;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 2px solid #82868c;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.login-wrap {
+	position: relative;
+	margin: 50px auto;
+	background: lightgrey;
+	max-width: 400px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px #333
+}
+
+.login-wrap h2 {
+	text-align: center;
+	font-weight: 200;
+	font-size: 2em;
+	margin-top: 15px;
+	color: #34495e;
+}
+
+.login-wrap .form {
+	padding-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 25px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+select {
+	width: 50%;
+	margin-bottom: 25px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+label {
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+.login-wrap .form button {
+	font-size: 18px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+	height: 40px;
+	width: 155px;
+	border-radius: 5px;
+}
+
+.login-wrap .form input[type="text"], .login-wrap .form input[type="password"],
+	.login-wrap .form input[type="email"] {
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	border: 1px solid;
+}
+
+.login-wrap .form input[type="text"]:focus, .login-wrap .form input[type="email"]:focus,
+	.login-wrap .form input[type="password"]:focus {
+	border: 2px solid blue;
+}
+
+button:hover {
+	box-shadow: 1px 1px 5px #555;
+}
