@@ -1,0 +1,48 @@
+body {
+	background: grey;
+	font-family: 'Helvetica Neue', Arial, Sans-Serif; //
+	padding: 10px 100px 100px 100px;
+}
+
+.login-wrap {
+	position: relative;
+	margin: auto;
+	background: #ecf0f1;
+	border-radius: 5px;
+	max-height: 1000px;
+	max-width: 1400px;
+	box-shadow: 3px 3px 10px #333;
+	padding: 50px;
+}
+
+.header1 {
+	position: relative;
+	margin: auto;
+	background: #ecf0f1;
+	border-radius: 5px;
+	max-height: 100px;
+	max-width: 100%;
+	box-shadow: 3px 3px 10px #333;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.aa {
+	text-align: center;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.a1 {
+	float: right;
+}
+
+.pos {
+	float: right;
+}
+
+.fontStyle1 {
+	font-size: 20px;
+}
